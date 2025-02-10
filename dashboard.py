@@ -7,7 +7,7 @@ import seaborn as sns
 day_df = pd.read_csv("day.csv")
 
 
-day_df['dteday'] = pd.to_datetime(day_df['dteday'])
+day_df['dateday'] = pd.to_datetime(day_df['dateday'])
 
 #judul
 st.title("Bike Sharing Dashboard")
